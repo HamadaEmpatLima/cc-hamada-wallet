@@ -40,8 +40,15 @@ Before you begin, make sure you have the following software installed:
    
 5. **Start the Development Server:**
 
+   Run the following service to keep aplication running:
+
+   Terminal 1
    ```bash
    php artisan serve
+   ```
+   Terminal 2
+   ```bash
+   php artisan queue:work
    
 ### Usage
 
